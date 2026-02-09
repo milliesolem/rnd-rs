@@ -1,0 +1,10 @@
+[package]
+name = "rnd"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+base64 = "0.22.1"
+bstr = "1.12.1"
+bytes = "1.11.1"
+clap = { version = "4.5.57", features = ["derive"] }
